@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        div {
+            width: 500px;
+            height: 200px;
+        }
+
+        .linear-gradient {
+
+            background: linear-gradient(to right,
+                    /* to left */
+                    red,
+                    orange,
+                    black,
+                    green,
+                    blue,
+                    indigo,
+                    violet);
+        }
+
+        .liner-gradient-1 {
+            background: linear-gradient(to right,
+                    red 20%,
+                    orange 20% 40%,
+                    yellow 40% 60%,
+                    green 60% 80%,
+                    blue 80%);
+        }
+
+        hr {
+            height: 20px;
+            background: linear-gradient(black, white, red);
+        }
+
+        .radial-gradient {
+            background: radial-gradient(red, yellow, rgb(30, 144, 255));
+        }
+
+        .conic-gradient {
+            background: conic-gradient(rgb(75, 110, 66), rgb(235, 4, 4), rgb(219, 19, 116));
+        }
+    </style>
+</head>
+
+<body>
+    <div class="linear-gradient"></div>
+    <hr>
+    <div class="liner-gradient-1"></div>
+    <hr>
+    <div class="radial-gradient"></div>
+    <hr>
+    <div class="conic-gradient"></div>
+</body>
+
+</html>
